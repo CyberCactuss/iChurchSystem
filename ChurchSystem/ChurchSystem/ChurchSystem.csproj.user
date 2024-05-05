@@ -4,19 +4,37 @@
     <Compile Update="Dashboard Forms\Events.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Dashboard Forms\Finance.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Dashboard Forms\Home.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Dashboard Forms\Inventory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Dashboard Forms\Members.cs">
+    <Compile Update="Dashboard Forms\Members\AddMember.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Main Program Forms\Dashboard.cs">
+    <Compile Update="Dashboard Forms\Members\AddMember2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dashboard Forms\Members\MembersMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dashboard Forms\Members\ViewInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dashboard Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Main Program Forms\LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main Program Forms\MainDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Tools\RoundPanel.cs">

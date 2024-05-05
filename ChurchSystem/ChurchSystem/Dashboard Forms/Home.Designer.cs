@@ -44,7 +44,7 @@
             pictureBox3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pictureBox3.BackColor = Color.DodgerBlue;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(594, 52);
+            pictureBox3.Location = new Point(588, 52);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(242, 205);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -102,14 +102,15 @@
             roundPanel1.BackColor = Color.DodgerBlue;
             roundPanel1.Location = new Point(37, 35);
             roundPanel1.Name = "roundPanel1";
-            roundPanel1.Size = new Size(837, 247);
+            roundPanel1.Size = new Size(831, 247);
             roundPanel1.TabIndex = 17;
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(915, 702);
+            BackColor = Color.WhiteSmoke;
+            ClientSize = new Size(909, 694);
             Controls.Add(pictureBox3);
             Controls.Add(guna2Button7);
             Controls.Add(label6);

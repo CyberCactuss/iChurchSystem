@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChurchSystem
-build_property.ProjectDir = C:\Users\HP\OneDrive - Polytechnic University of the Philippines\Documents\kyle modules\BSCS 1 - A\2ND YEAR\2ND SEM\INFOMGMT\Assignments\ChurchSystem\ChurchSystem\
+build_property.ProjectDir = C:\Users\Kim\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

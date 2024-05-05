@@ -11,11 +11,12 @@ using System.Windows.Forms;
 using ChurchSystem.Database;
 
 namespace ChurchSystem
-{   
+{
     public partial class LogIn : Form
     {
         private DatabaseConnection dbConnection;
         private AuthenticationService authenticationService;
+
         public LogIn()
         {
             InitializeComponent();
@@ -35,7 +36,7 @@ namespace ChurchSystem
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            
+
             string username = guna2TextBox3.Text;
             string password = guna2TextBox1.Text;
 
@@ -43,9 +44,10 @@ namespace ChurchSystem
 
             //if (isValidCredentials)
             //{               
-                Dashboard dashboardForm = new Dashboard();
-                dashboardForm.Show();
-                this.Hide();
+            MainDashboard dashboardForm = new MainDashboard();
+            dashboardForm.FormClosed += (s, args) => this.Close();
+            this.Hide(); // Hide the current form
+            dashboardForm.ShowDialog();
             //}
             /*else
             {
@@ -62,6 +64,11 @@ namespace ChurchSystem
         }
 
         private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
 
         }

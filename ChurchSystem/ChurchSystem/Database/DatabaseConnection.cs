@@ -10,7 +10,7 @@ namespace ChurchSystem.Database
     internal class DatabaseConnection
     {
 
-        private string connectionString;
+        private string? connectionString;
         private SQLiteConnection connection;
 
         public DatabaseConnection(string dbFileName)
