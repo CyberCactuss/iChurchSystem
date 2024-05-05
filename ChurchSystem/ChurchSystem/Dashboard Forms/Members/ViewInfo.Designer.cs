@@ -28,12 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "ViewInfo";
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewInfo));
+            guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
+            pictureBox2 = new PictureBox();
+            guna2vSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
+            // 
+            // guna2Elipse1
+            // 
+            guna2Elipse1.BorderRadius = 21;
+            guna2Elipse1.TargetControl = this;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(94, 51);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(173, 164);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
+            // guna2vSeparator1
+            // 
+            guna2vSeparator1.Location = new Point(384, -2);
+            guna2vSeparator1.Name = "guna2vSeparator1";
+            guna2vSeparator1.Size = new Size(18, 585);
+            guna2vSeparator1.TabIndex = 5;
+            // 
+            // ViewInfo
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1045, 581);
+            Controls.Add(guna2vSeparator1);
+            Controls.Add(pictureBox2);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "ViewInfo";
+            Text = "ViewInfo";
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2VSeparator guna2vSeparator1;
+        private PictureBox pictureBox2;
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MembersMain));
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -44,13 +45,31 @@
             // 
             // dataGridView1
             // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AllowUserToResizeColumns = false;
+            dataGridView1.AllowUserToResizeRows = false;
             dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            dataGridView1.BackgroundColor = Color.White;
+            dataGridView1.BackgroundColor = Color.WhiteSmoke;
+            dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.None;
+            dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.GridColor = Color.WhiteSmoke;
             dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(53, 160, 236);
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridView1.ScrollBars = ScrollBars.Vertical;
             dataGridView1.Size = new Size(1043, 607);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // guna2Button1
             // 
@@ -100,6 +119,7 @@
             guna2Button2.Text = "Delete";
             guna2Button2.TextAlign = HorizontalAlignment.Left;
             guna2Button2.TextOffset = new Point(42, 0);
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2Button3
             // 
@@ -124,6 +144,7 @@
             guna2Button3.Text = "Update";
             guna2Button3.TextAlign = HorizontalAlignment.Left;
             guna2Button3.TextOffset = new Point(47, 0);
+            guna2Button3.Click += guna2Button3_Click;
             // 
             // MembersMain
             // 

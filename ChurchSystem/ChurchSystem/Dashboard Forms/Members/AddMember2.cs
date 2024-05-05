@@ -14,10 +14,10 @@ namespace ChurchSystem.Dashboard_Forms.Members
 {
     public partial class AddMember2 : Form
     {
-        private string name;
-        private string email;
-        private string age;
-        private string sex;
+        private string? name;
+        private string? email;
+        private string? age;
+        private string? sex;
         
         public AddMember2()
         {
@@ -78,7 +78,6 @@ namespace ChurchSystem.Dashboard_Forms.Members
             
             MessageBox.Show("Member details saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            
             this.Close();
         }
 

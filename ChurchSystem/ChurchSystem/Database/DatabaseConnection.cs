@@ -16,7 +16,7 @@ namespace ChurchSystem.Database
 
         public DatabaseConnection(string dbFileName)
         {
-            string directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string? directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
             if (!string.IsNullOrEmpty(directory))
             {              
@@ -125,13 +125,14 @@ namespace ChurchSystem.Database
         {
             try
             {
+
                 
                 string query = "SELECT Name, Email, Sex FROM Members";
 
                 
                 using (SQLiteCommand command = new SQLiteCommand(query, connection))
                 {
-                    
+                        
                     using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
                     {
                         DataTable dataTable = new DataTable();
@@ -157,8 +158,57 @@ namespace ChurchSystem.Database
             }
         }
 
+        public void DeleteMemberDetails(string name, string email, string sex)
+        {
+            try
+            {
+                string query = "DELETE FROM Members WHERE Name = @Name AND Email = @Email AND Sex = @Sex";
+
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Name", name);
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@Sex", sex);
+
+                    command.ExecuteNonQuery();
+                }
+
+                Console.WriteLine("Record deleted from database.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error deleting record from the database: {ex.Message}");
+            }
+        }
+
+
+        public void DeleteMember(int memberId)
+        {
+            try
+            {
+                string query = "DELETE FROM Members WHERE [Member ID] = @MemberId";
+
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@MemberId", memberId);
+
+                    command.ExecuteNonQuery();
+                }
+
+                Console.WriteLine($"Member with ID {memberId} deleted from database.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error deleting member from the database: {ex.Message}");
+            }
+        }
+
+
+
 
     }
 
 }
+
+
 
