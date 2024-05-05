@@ -1,4 +1,5 @@
 ﻿using ChurchSystem.Dashboard_Forms.Members;
+using ChurchSystem.Database;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,11 @@ namespace ChurchSystem.Dashboard_Forms.MembersFiles
 {
     public partial class AddMember : Form
     {
+        private string name;
+        private string email;
+        private string age;
+        private string sex;
+
         public AddMember()
         {
             InitializeComponent();
@@ -43,25 +49,30 @@ namespace ChurchSystem.Dashboard_Forms.MembersFiles
                 return;
             }
 
-            // Check if email textbox contains a valid email address
+            
             if (!IsValidEmail(textBox2.Text))
             {
                 MessageBox.Show("Please enter a valid email address.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            // Check if comboboxes have valid selections
+            
             if (comboBox1.SelectedIndex == -1 || comboBox2.SelectedIndex == -1)
             {
                 MessageBox.Show("Please make a selection for all dropdowns.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            AddMember2 member = new AddMember2();
-            member.Owner = this;
-            member.FormClosed += (s, args) => this.Close();
+            name = textBox1.Text;
+            email = textBox2.Text;
+            age = comboBox1.SelectedItem.ToString(); 
+            sex = comboBox2.SelectedItem.ToString();
+
+            AddMember2 member2Form = new AddMember2(name, email, age, sex);
+            member2Form.Owner = this;
+            member2Form.FormClosed += (s, args) => this.Close();
             this.Hide();
-            member.ShowDialog();
+            member2Form.ShowDialog();
         }
         private bool IsValidEmail(string email)
         {

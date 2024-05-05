@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SQLite;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ChurchSystem.Database
 {
-    internal class DatabaseConnection
+    public class DatabaseConnection
     {
 
         private string? connectionString;
@@ -90,6 +91,72 @@ namespace ChurchSystem.Database
 
             return isValid;
         }
+
+        public void InsertMemberDetails(MemberDetails memberDetails)
+        {
+            try
+            {
+                string query = "INSERT INTO Members (Name, Email, Age, Sex, Contact, [Date/Time], Birthday, Address) " +
+                               "VALUES (@Name, @Email, @Age, @Sex, @Contact, @DateTime, @Birthday, @Address)";
+
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@Name", memberDetails.Name);
+                    command.Parameters.AddWithValue("@Email", memberDetails.Email);
+                    command.Parameters.AddWithValue("@Age", memberDetails.Age);
+                    command.Parameters.AddWithValue("@Sex", memberDetails.Sex);
+                    command.Parameters.AddWithValue("@Contact", memberDetails.Contact);
+                    command.Parameters.AddWithValue("@DateTime", DateTime.Now);
+                    command.Parameters.AddWithValue("@Birthday", memberDetails.Birthday);
+                    command.Parameters.AddWithValue("@Address", memberDetails.Address);
+
+                    command.ExecuteNonQuery();
+                }
+
+                Console.WriteLine("Member details inserted successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error inserting member details: {ex.Message}");
+            }
+        }
+
+        public void LoadMembersIntoDataGridView(DataGridView dataGridView)
+        {
+            try
+            {
+                
+                string query = "SELECT Name, Email, Sex FROM Members";
+
+                
+                using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                {
+                    
+                    using (SQLiteDataAdapter adapter = new SQLiteDataAdapter(command))
+                    {
+                        DataTable dataTable = new DataTable();
+
+                        
+                        adapter.Fill(dataTable);
+
+                        
+                        dataGridView.DataSource = dataTable;
+                    }
+                }
+
+                
+                DataGridViewButtonColumn viewInfoColumn = new DataGridViewButtonColumn();
+                viewInfoColumn.Name = "View Info";
+                viewInfoColumn.Text = "View Info";
+                viewInfoColumn.UseColumnTextForButtonValue = true;
+                dataGridView.Columns.Add(viewInfoColumn);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading members into DataGridView: {ex.Message}");
+            }
+        }
+
 
     }
 

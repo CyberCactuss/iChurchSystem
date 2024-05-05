@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChurchSystem
-build_property.ProjectDir = C:\Users\Kim\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\
+build_property.ProjectDir = C:\Users\Kim\source\repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

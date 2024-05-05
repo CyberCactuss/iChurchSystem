@@ -6,8 +6,11 @@
     "\\ChurchSystem\\ChurchSystem\\bin",
     "\\ChurchSystem\\ChurchSystem\\bin\\Debug",
     "\\ChurchSystem\\ChurchSystem\\bin\\Debug\\net8.0-windows",
+    "\\ChurchSystem\\ChurchSystem\\Dashboard Forms",
+    "\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Members",
+    "\\ChurchSystem\\ChurchSystem\\Database",
     "\\ChurchSystem\\ChurchSystem\\Main Program Forms"
   ],
-  "SelectedNode": "\\ChurchSystem\\ChurchSystem.sln",
+  "SelectedNode": "\\ChurchSystem\\ChurchSystem\\Database\\DatabaseConnection.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -277,7 +277,7 @@
             guna2DateTimePicker1.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2DateTimePicker1.Size = new Size(296, 51);
+            guna2DateTimePicker1.Size = new Size(338, 51);
             guna2DateTimePicker1.TabIndex = 52;
             guna2DateTimePicker1.Value = new DateTime(2024, 5, 4, 23, 29, 9, 731);
             guna2DateTimePicker1.ValueChanged += guna2DateTimePicker1_ValueChanged;
