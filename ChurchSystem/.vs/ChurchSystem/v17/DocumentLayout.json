@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kim\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\kim\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\members\\viewinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\members\\viewinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\katrina\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\kim\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\main program forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\main program forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\katrina\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\katrina\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\events.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\events.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,36 +21,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 65,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 602,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogIn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kim\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Main Program Forms\\LogIn.cs",
-              "RelativeDocumentMoniker": "ChurchSystem\\Main Program Forms\\LogIn.cs",
-              "ToolTip": "C:\\Users\\Kim\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Main Program Forms\\LogIn.cs [Design]",
-              "RelativeToolTip": "ChurchSystem\\Main Program Forms\\LogIn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:28:39.202Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewInfo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Kim\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Members\\ViewInfo.cs",
-              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Members\\ViewInfo.cs",
-              "ToolTip": "C:\\Users\\Kim\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Members\\ViewInfo.cs [Design]*",
-              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Members\\ViewInfo.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T11:25:49.562Z",
-              "EditorCaption": " [Design]"
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:499213925:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -59,16 +39,62 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:499213925:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Events.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\katrina\\Source\\Repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
+              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
+              "ToolTip": "C:\\Users\\katrina\\Source\\Repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
+              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAowE4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T07:56:57.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Events.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs",
+              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Events.cs",
+              "ToolTip": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs [Design]",
+              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Events.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T06:23:11.122Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs",
+              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Events.cs",
+              "ToolTip": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs",
+              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Events.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T05:39:14.077Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 335,
+          "DockedWidth": 160,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",

@@ -182,7 +182,7 @@
             label8.Size = new Size(21, 25);
             label8.TabIndex = 13;
             label8.Text = "*";
-            label8.Click += label8_Click;
+          
             // 
             // guna2Button1
             // 
