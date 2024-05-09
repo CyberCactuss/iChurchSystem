@@ -138,3 +138,4 @@ C:\Users\katrina\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSyst
 C:\Users\katrina\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\obj\Debug\net8.0-windows\ChurchSystem.pdb
 C:\Users\katrina\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\obj\Debug\net8.0-windows\ChurchSystem.genruntimeconfig.cache
 C:\Users\katrina\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\obj\Debug\net8.0-windows\ref\ChurchSystem.dll
+C:\Users\katrina\Source\Repos\CyberCactuss\iChurchSystem\ChurchSystem\ChurchSystem\obj\Debug\net8.0-windows\ChurchSystem.Dashboard_Forms.Members.EventDetailsForm.resources

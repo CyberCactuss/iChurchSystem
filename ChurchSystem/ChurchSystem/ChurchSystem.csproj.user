@@ -19,6 +19,9 @@
     <Compile Update="Dashboard Forms\Members\AddMember2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Dashboard Forms\Members\EventDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Dashboard Forms\Members\MembersMain.cs">
       <SubType>Form</SubType>
     </Compile>

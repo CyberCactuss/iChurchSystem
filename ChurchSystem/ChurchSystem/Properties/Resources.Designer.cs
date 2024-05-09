@@ -59,5 +59,15 @@ namespace ChurchSystem.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arrow_icon__myiconfinder_23 {
+            get {
+                object obj = ResourceManager.GetObject("arrow-icon--myiconfinder-23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

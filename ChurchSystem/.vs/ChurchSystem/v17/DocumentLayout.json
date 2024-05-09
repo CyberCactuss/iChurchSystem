@@ -1,28 +1,15 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\katrina\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\katrina\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|c:\\users\\katrina\\source\\repos\\cybercactuss\\ichurchsystem\\churchsystem\\churchsystem\\dashboard forms\\events.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12552AF3-FF9E-4041-A897-9C10D291A3DD}|ChurchSystem\\ChurchSystem.csproj|solutionrelative:churchsystem\\dashboard forms\\events.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 602,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 409,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,55 +33,21 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Events.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\katrina\\Source\\Repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
-              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
-              "ToolTip": "C:\\Users\\katrina\\Source\\Repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
-              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Events.Designer.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAowE4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T07:56:57.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Events.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs",
-              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Events.cs",
-              "ToolTip": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs [Design]",
-              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Events.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T06:23:11.122Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Events.cs",
-              "DocumentMoniker": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs",
-              "RelativeDocumentMoniker": "ChurchSystem\\Dashboard Forms\\Events.cs",
-              "ToolTip": "C:\\Users\\katrina\\source\\repos\\CyberCactuss\\iChurchSystem\\ChurchSystem\\ChurchSystem\\Dashboard Forms\\Events.cs",
-              "RelativeToolTip": "ChurchSystem\\Dashboard Forms\\Events.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T05:39:14.077Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
         {
-          "DockedWidth": 160,
+          "DockedWidth": 353,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
