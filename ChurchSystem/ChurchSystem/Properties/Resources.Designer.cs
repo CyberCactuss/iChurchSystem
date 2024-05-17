@@ -69,5 +69,15 @@ namespace ChurchSystem.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_search_icon_337_thumb {
+            get {
+                object obj = ResourceManager.GetObject("free-search-icon-337-thumb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

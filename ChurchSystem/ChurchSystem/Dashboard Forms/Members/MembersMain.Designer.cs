@@ -69,7 +69,7 @@
             dataGridView1.ScrollBars = ScrollBars.Vertical;
             dataGridView1.Size = new Size(1043, 607);
             dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            
             // 
             // guna2Button1
             // 

@@ -91,9 +91,6 @@ namespace ChurchSystem.Dashboard_Forms.MembersFiles
             LoadMembersData();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
-        }
+        
     }
 }
